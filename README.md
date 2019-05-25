@@ -16,15 +16,22 @@ Try out an editable version of the below example at Repl.it: [https://repl.it/@l
 ```js
 import React, { Component } from 'react'
 
-import OutputPjs from '@lilonga/output-p5'
-
+import OutputP5 from '@lilonga/output-p5'
+const inputExample = `
+  function setup(){
+    createCanvas(400,400)
+  }
+  function draw(){
+    line(0,0,width,height)
+  }
+`
 class Example extends Component {
   render() {
     return (
       <OutputP5
-        width={100}
-        height={100}
-        input="line(0,0,100,100)"
+        width={400}
+        height={400}
+        input={inputExample}
       />
     )
   }
