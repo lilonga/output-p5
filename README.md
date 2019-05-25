@@ -1,27 +1,27 @@
-# @lilonga/output-khan-processing
+# @lilonga/output-p5
 
-> Renders input code using Khan Academy's custom Processing.js environment.
+> Renders input code as a P5.js sketch.
 
-[![NPM](https://img.shields.io/npm/v/@lilonga/output-khan-processing.svg)](https://www.npmjs.com/package/@lilonga/output-khan-processing)
+[![NPM](https://img.shields.io/npm/v/@lilonga/output-p5.svg)](https://www.npmjs.com/package/@lilonga/output-p5)
 
 ## Install
 
 ```bash
-npm install --save @lilonga/output-khan-processing
+npm install --save @lilonga/output-p5
 ```
 
 ## Usage
-Try out an editable version of the below example at Repl.it: [https://repl.it/@lilonga/output-khan-processing](https://repl.it/@lilonga/output-khan-processing)
+Try out an editable version of the below example at Repl.it: [https://repl.it/@lilonga/output-p5](https://repl.it/@lilonga/output-p5)
 
 ```js
 import React, { Component } from 'react'
 
-import OutputPjs from '@lilonga/output-khan-processing'
+import OutputPjs from '@lilonga/output-p5'
 
 class Example extends Component {
   render() {
     return (
-      <OutputPjs
+      <OutputP5
         width={100}
         height={100}
         input="line(0,0,100,100)"
@@ -33,7 +33,7 @@ export default Example
 ```
 
 ## API
-See [@lilonga/output-khan-processing docs](https://@lilonga/output-khan-processing-docs.lilo.now.sh) for more examples and documentation
+See [@lilonga/output-p5 docs](https://@lilonga/output-p5-docs.lilo.now.sh) for more examples and documentation
 
 ## License
 
